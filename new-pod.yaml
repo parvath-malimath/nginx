@@ -10,5 +10,3 @@ spec:
       image: nginx
     - name: busybox
       image: busybox
-      
-  

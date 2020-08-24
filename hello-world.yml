@@ -4,8 +4,7 @@ metadata:
     name: hello-world-new
     labels:
         type: front-end
- 
- spec:
+spec:
     containers:
         - name: helloworld-container
           image: hello-world
