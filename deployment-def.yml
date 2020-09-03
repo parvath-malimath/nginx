@@ -17,5 +17,5 @@ spec:
     spec:
       containers:
         - name: nginx-container
-          image: nginx:1.19
+          image: nginxdemos/hello
   replicas: 6
