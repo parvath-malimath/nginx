@@ -1,17 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: my-deployment
+  name: config-server-deployment
+  labels: 
+    app: config
 spec:
   selector:
     matchLabels:
-       app: config-server
+       app: config
       
   template:
     metadata:
       name: config-server-pod
       labels:
-        app: config-server
+        app: config
     spec:
       containers:
         - name: config-server
