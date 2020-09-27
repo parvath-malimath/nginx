@@ -16,4 +16,4 @@ spec:
       containers:
         - name: config-server
           image: parvath/config-server:0.0.1
-  replicas: 6
+  replicas: 2
